@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  /*  padding: 20px; */
+  /* background-color: #f8f8f8; */
+}
+
+.nav {
+  justify-content: center;
+  margin-left: auto;
+}
+
+.nav__list {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 50px;
+  justify-content: center;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav__button {
+  margin-left: auto;
+  padding: 10px 20px;
+  background-color: rgb(251, 151, 168);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
