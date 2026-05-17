@@ -18,13 +18,13 @@ const cardData = [
   },
   {
     id: 3,
-    title: "Custom Nail Art",
+    title: "Holiday Nail Art",
     /* description: "Unique hand-painted designs", */
     image: nailArt3,
   },
   {
     id: 4,
-    title: "Custom Nail Art",
+    title: "White Nail Art",
     /* description: "Unique hand-painted designs", */
     image: nailArt4,
   },

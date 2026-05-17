@@ -1,8 +1,28 @@
 import "./Modal.css";
 import cardData from "../Data/cardData";
 import Card from "../Cards/Cards";
+import { useEffect } from "react";
 
 function Modal({ isOpen, setIsOpen }) {
+  useEffect(() => {
+    /* Create function */
+    function handleEsc(event) {
+      if (event.key === "Escape") {
+        setIsOpen(false);
+      }
+    }
+
+    /* If isOpen is true, add keydown event listener */
+    if (isOpen) {
+      document.addEventListener("keydown", handleEsc);
+    }
+
+    /* Cleanup function to remove event listener */
+    return () => {
+      document.removeEventListener("keydown", handleEsc);
+    };
+  }, [isOpen]);
+
   if (!isOpen) {
     return null; // Don't render anything if the modal is not open
   }
