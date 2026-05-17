@@ -16,7 +16,7 @@ function Footer() {
           <span className="footer__portfolio-text">Elijah Williams</span>
         </a>
         <a
-          href="https://www.linkedin.com/in/elijah-williams-9b1a4b1b2/"
+          href="https://www.linkedin.com/in/elijah-williams16/"
           target="_blank"
           rel="noreferrer"
           className="footer__contact-link"
