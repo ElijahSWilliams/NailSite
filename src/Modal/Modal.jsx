@@ -39,7 +39,7 @@ function Modal({ isOpen, setIsOpen }) {
         </button>
 
         <div className="modal__content">
-          <h2 className="modal__header">Full Gallery</h2>
+          <h2 className="modal__header">Gallery</h2>
           <div className="modal__gallery">
             {cardData.map((cardData) => (
               <Card
