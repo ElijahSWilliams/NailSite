@@ -1,12 +1,9 @@
 import "./Cards.css";
-import cardData from "../Data/cardData";
 
-function Card({ title, image }) {
+function Card({ title, image, onClick }) {
   return (
     <div className="card">
-      <img src={image} alt={title} className="card__image" />
-     {/*  <h3 className="card__title">{title}</h3>
-      <p className="card__description">{description}</p> */}
+      <img src={image} alt={title} className="card__image" onClick={onClick} />
     </div>
   );
 }
