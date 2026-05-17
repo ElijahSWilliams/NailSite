@@ -32,8 +32,8 @@ function Modal({ isOpen, setIsOpen }) {
   }
 
   return (
-    <div className={`modal ${isOpen ? "modal__open" : ""}`}>
-      <div className="modal__container">
+    <div className={`modal ${isOpen ? "modal__open" : ""}`} onClick={handleClose}>
+      <div className="modal__container" onClick={(event) => event.stopPropagation()}>
         <button className="modal__close" onClick={() => handleClose()}>
           X
         </button>
