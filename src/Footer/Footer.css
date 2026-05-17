@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.footer__contact-header {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.footer__portfolio-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer__portfolio-text {
+  text-decoration: underline;
+}
+
+.footer__arrow-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.footer__link {
+  text-decoration: none;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+}
