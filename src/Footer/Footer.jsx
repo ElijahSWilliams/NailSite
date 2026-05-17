@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="footer">
       <p className="footer__text">
-        © 2026 Enhanced by Luz. All rights reserved.
+        © 2026 Elijah Williams. All rights reserved.
       </p>
       <h2 className="footer__contact-header">
         Website Created By{" "}
