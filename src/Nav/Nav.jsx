@@ -5,40 +5,48 @@ function Nav() {
     <div className="navbar">
       <nav className="nav">
         <ul className="nav__list">
-          <li>
-            <a href="#/" className="nav__link">
+          {/*  <li>
+            <a href="#" className="nav__link">
               Home
             </a>
-          </li>
+          </li> */}
           <li>
-            <a href="#/services" className="nav__link">
+            <a href="#services" className="nav__link">
               Services
             </a>
           </li>
           <li>
-            <a href="#/portfolio" className="nav__link">
+            <a href="#portfolio" className="nav__link">
               Portfolio
             </a>
           </li>
-          <li>
-            <a href="#/book" className="nav__link">
+          {/*  <li>
+            <a href="#book" className="nav__link">
               Book
             </a>
-          </li>
-          <li>
-            <a href="#/about" className="nav__link">
+          </li> */}
+          {/* <li>
+            <a href="#about" className="nav__link">
               About
             </a>
-          </li>
+          </li> */}
           <li>
-            <a href="#/contact" className="nav__link">
+            <a href="#contact" className="nav__link">
               Contact
             </a>
           </li>
         </ul>
       </nav>
 
-      <button className="nav__button">Book Appointment</button>
+      <button className="nav__button">
+        <a
+          href="https://www.instagram.com/enhancedbyluz/"
+          target="_blank"
+          className="nav__button-link"
+        >
+          Book Appointment
+        </a>
+      </button>
     </div>
   );
 }

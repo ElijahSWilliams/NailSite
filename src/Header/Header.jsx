@@ -14,17 +14,24 @@ function Header() {
             deserve
           </p>
 
-          <div className="header__buttons-container">
-            <button className="header__button">Book Appointment</button>
+          <div className="header__buttons-container"> 
+
+            <button className="header__button">  
+              <a href="https://www.instagram.com/enhancedbyluz/" target="_blank" className="header__button-link">
+              Book Appointment 
+              </a>
+              </button>
+
             <button className="header__button header__button2">
-              View Portfolio
+              <a href="#portfolio" className="header__button-link">
+                View Portfolio
+              </a>
             </button>
           </div>
         </div>
       </header>
 
-      {/* Services Section (OUTSIDE HERO — THIS FIXES THE CLUNKINESS) */}
-      <section className="header__services">
+      <section className="header__services" id="services">
         <h2 className="header__services-title">Our Services</h2>
 
         <ul className="header__services-cards">

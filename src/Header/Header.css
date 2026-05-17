@@ -68,6 +68,11 @@
   border: 2px solid white;
 }
 
+.header__button-link {
+  text-decoration: none;
+  color: white;
+}
+
 .header__footer {
   display: flex;
   align-items: center;

@@ -8,7 +8,7 @@ function Portfolio() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="portfolio">
+    <div className="portfolio" id="portfolio">
       <h1 className="portfolio__header">Portfolio</h1>
 
       <p className="portfolio__subtitle">
