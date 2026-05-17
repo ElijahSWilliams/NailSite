@@ -1,12 +1,12 @@
 import "./Cards.css";
 import cardData from "../Data/cardData";
 
-function Card({ title, description, imageUrl }) {
+function Card({ title, image }) {
   return (
     <div className="card">
-      <img src={imageUrl} alt={title} className="card__image" />
-      <h3 className="card__title">{title}</h3>
-      <p className="card__description">{description}</p>
+      <img src={image} alt={title} className="card__image" />
+     {/*  <h3 className="card__title">{title}</h3>
+      <p className="card__description">{description}</p> */}
     </div>
   );
 }

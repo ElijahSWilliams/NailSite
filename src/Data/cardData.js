@@ -7,20 +7,26 @@ const cardData = [
   {
     id: 1,
     title: "Classic French Tips",
-    description: "Clean and elegant everyday nails",
-    imageURL: nailArt1,
+    /* description: "Clean and elegant everyday nails", */
+    image: nailArt1,
   },
   {
     id: 2,
     title: "Pink Chrome Set",
-    description: "Glossy chrome finish with sparkle",
-    imageURL: "/images/pink-chrome.jpg",
+    /* description: "Glossy chrome finish with sparkle", */
+    image: nailArt2,
   },
   {
     id: 3,
     title: "Custom Nail Art",
-    description: "Unique hand-painted designs",
-    imageURL: "/images/custom-art.jpg",
+    /* description: "Unique hand-painted designs", */
+    image: nailArt3,
+  },
+  {
+    id: 4,
+    title: "Custom Nail Art",
+    /* description: "Unique hand-painted designs", */
+    image: nailArt4,
   },
 ];
 

@@ -8,6 +8,7 @@
 .nav {
   justify-content: center;
   margin-left: auto;
+  padding-left: 100px;
 }
 
 .nav__list {
