@@ -41,3 +41,30 @@
   height: 18px;
   margin-left: 5px;
 }
+ 
+@media (max-width: 1024px) {  
+
+  .footer {
+    gap: 10px
+  }
+
+  .footer__text {
+    font-size: 10px;
+  }
+
+  .footer__contact-header {
+    margin-left: 65px;
+    font-size: 10px;
+  } 
+
+  .footer__link {
+    width: 10px;
+    height: 10px;
+  } 
+
+  .portfolio__button {
+   margin-left: auto;
+   margin-right: auto;
+  }
+  
+}

@@ -1,10 +1,21 @@
-import "./Nav.css";
+import "./Nav.css"; 
+import { useState } from "react";
 
 function Nav() {
+const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+
   return (
-    <div className="navbar">
-      <nav className="nav">
-        <ul className="nav__list">
+    <div className="navbar"> 
+
+       {/* Hamburger Menu Icon */}
+       <button className="hamburger" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+        =
+      </button>
+
+
+      <nav className={`nav ${isMenuOpen ? "active" : ""}`}>
+      <ul className="nav__list">
           {/*  <li>
             <a href="#" className="nav__link">
               Home
